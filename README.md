@@ -2,11 +2,11 @@
 
 ## A faire
 
-- [ ] Creer une VM Debian
-- [ ] Creer 2 partitions chiffrees LVM (voir sujet)
+- [x] Creer une VM Debian
+- [x] Creer 2 partitions chiffrees LVM (voir sujet)
 - [ ] Service SSH actif sur port 4242
 - [ ] Configurer pare-feu UFW (laisser port 4242 ouvert)
-- [ ] Hostname = arazzok42
+- [x] Hostname = arazzok42
 - [ ] Politique de mdp fort
 - [ ] Installer et config sudo pratique stricte
 - [ ] Mettre en place script monitoring.sh
