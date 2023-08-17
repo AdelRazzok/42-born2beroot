@@ -4,7 +4,7 @@
 
 - [x] Creer une VM Debian
 - [x] Creer 2 partitions chiffrees LVM (voir sujet)
-- [ ] Service SSH actif sur port 4242
+- [x] Service SSH actif sur port 4242
 - [ ] Configurer pare-feu UFW (laisser port 4242 ouvert)
 - [x] Hostname = arazzok42
 - [ ] Politique de mdp fort
