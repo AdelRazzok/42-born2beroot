@@ -8,7 +8,7 @@
 - [ ] Configurer pare-feu UFW (laisser port 4242 ouvert)
 - [x] Hostname = arazzok42
 - [ ] Politique de mdp fort
-- [ ] Installer et config sudo pratique stricte
+- [x] Installer et config sudo pratique stricte
 - [ ] Mettre en place script monitoring.sh
 
 ### Politique de mdp fort
@@ -22,11 +22,11 @@
  
 ### Sudo pratique stricte
 
-- [ ] Auth limitee a trois essais en cas de mdp errone
-- [ ] Afficher un message en cas d'erreur suite a un mauvais mdp
-- [ ] Garder logs toutes les actions sudo (inputs et outputs) dans /var/log/sudo
-- [ ] Mode TTY active pour + de securite
-- [ ] Limiter path utilisables par sudo (Exemple : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin)
+- [x] Auth limitee a trois essais en cas de mdp errone
+- [x] Afficher un message en cas d'erreur suite a un mauvais mdp
+- [x] Garder logs toutes les actions sudo (inputs et outputs) dans /var/log/sudo
+- [x] Mode TTY active pour + de securite
+- [x] Limiter path utilisables par sudo (Exemple : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin)
 
 ### Apres la mise en place des fichiers config
 
