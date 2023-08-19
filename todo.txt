@@ -1,0 +1,45 @@
+[x] Creer une VM Debian
+[x] Creer les partitions comme dans l'énoncé
+[x] Service SSH actif sur port 4242
+[x] Configurer pare-feu UFW (laisser port 4242 ouvert)
+[x] Hostname = arazzok42
+[x] Politique de mdp fort
+[x] Installer et config sudo pratique stricte
+[x] Mettre en place script monitoring.sh
+
+Politique de mdp fort :
+[x] Expire tous les 30j
+[x] Modifiable tous les 2j
+[x] Avertissement 7j avant expiration
+[x] 10 char min, une MAJ et un chiffre min, pas plus de 3 char identiques consecutifs
+[x] Ne comporte pas le nom du user
+[x] 7 char min pas présents dans l'ancien mdp
+[x] S'applique aussi à root
+
+Sudo pratique stricte :
+[x] Authentification limitée à 3 essais en cas de mdp erroné
+[x] Afficher un message en cas d'erreur suite à un mauvais mdp
+[x] Garder les logs de toutes les actions sudo (inputs et outputs) dans /var/log/sudo
+[x] Mode TTY activé pour + de sécurité
+[x] Limiter path utilisables par sudo (Exemple : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin)
+
+Apres la mise en place des fichiers de config :
+[ ] Changer les mdp de tous les comptes (root inclus)
+
+monitoring.sh :
+[x] S'execute toutes les 10 minutes
+[x] Affiche sur tous les terminaux
+
+Le script doit afficher les infos suivantes :
+[x] OS archi et version kernel
+[x] Nombre processeurs physiques
+[x] Nombre processeurs virtuels
+[x] Memoire vive dispo et taux utilisation (en %)
+[x] Memoire dispo et taux utilisation (en %)
+[x] Taux utilisation actuel processeurs (en %)
+[x] Date et heure dernier redemarrage
+[x] Etat LVM
+[x] Nombre connexion actives
+[x] Nombre utilisateurs
+[x] Adresse IPv4 et adresse MAC
+[x] Nombre commandes executees avec sudo
