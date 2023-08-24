@@ -7,18 +7,18 @@
 - [x] Service SSH actif sur port 4242
 - [x] Configurer pare-feu UFW (laisser port 4242 ouvert)
 - [x] Hostname = arazzok42
-- [ ] Politique de mdp fort
+- [x] Politique de mdp fort
 - [x] Installer et config sudo pratique stricte
 - [ ] Mettre en place script monitoring.sh
 
 ### Politique de mdp fort
 
-- [ ] Expire tous les 30j
-- [ ] Modifiable tous les 2j
-- [ ] Avertissement 7j avant expiration
-- [ ] 10 char min, une maj et un chiffre, pas + de 3 char identiques consecutifs
-- [ ] Ne comporte pas le nom du user
-- [ ] 7 char pas dans l'ancien mdp (ne s'applique pas a root)
+- [x] Expire tous les 30j
+- [x] Modifiable tous les 2j
+- [x] Avertissement 7j avant expiration
+- [x] 10 char min, une maj et un chiffre, pas + de 3 char identiques consecutifs
+- [x] Ne comporte pas le nom du user
+- [x] 7 char pas dans l'ancien mdp (ne s'applique pas a root)
  
 ### Sudo pratique stricte
 
