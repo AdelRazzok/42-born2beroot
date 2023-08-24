@@ -9,7 +9,7 @@
 - [x] Hostname = arazzok42
 - [x] Politique de mdp fort
 - [x] Installer et config sudo pratique stricte
-- [ ] Mettre en place script monitoring.sh
+- [x] Mettre en place script monitoring.sh
 
 ### Politique de mdp fort
 
@@ -38,18 +38,18 @@ Dès le lancement de votre serveur, le script écrira des informations toutes le
 
 Le script doit afficher les infos suivantes :
 
-- [ ] OS archi et version kernel
-- [ ] Nombre processeurs physiques
-- [ ] Nombre processeurs virtuels
-- [ ] Memoire vive dispo et taux utilisation (en %)
-- [ ] Memoire dispo et taux utilisation (en %)
-- [ ] Taux utilisation actuel processeurs (en %)
-- [ ] Date et heure dernier redemarrage
-- [ ] Etat LVM
-- [ ] Nombre connexion actives
-- [ ] Nombre utilisateurs
-- [ ] Adresse IPv4 et adresse MAC
-- [ ] Nombre commandes executees avec sudo
+- [x] OS archi et version kernel
+- [x] Nombre processeurs physiques
+- [x] Nombre processeurs virtuels
+- [x] Memoire vive dispo et taux utilisation (en %)
+- [x] Memoire dispo et taux utilisation (en %)
+- [x] Taux utilisation actuel processeurs (en %)
+- [x] Date et heure dernier redemarrage
+- [x] Etat LVM
+- [x] Nombre connexion actives
+- [x] Nombre utilisateurs
+- [x] Adresse IPv4 et adresse MAC
+- [x] Nombre commandes executees avec sudo
 
 Durant la soutenance, vous serez amené(e) à expliquer le fonctionnement de ce script et à interrompre son exécution sans le modifier. Regardez du côté de cron.
 
