@@ -7,18 +7,18 @@
 - [x] Service SSH actif sur port 4242
 - [x] Configurer pare-feu UFW (laisser port 4242 ouvert)
 - [x] Hostname = arazzok42
-- [ ] Politique de mdp fort
+- [x] Politique de mdp fort
 - [x] Installer et config sudo pratique stricte
-- [ ] Mettre en place script monitoring.sh
+- [x] Mettre en place script monitoring.sh
 
 ### Politique de mdp fort
 
-- [ ] Expire tous les 30j
-- [ ] Modifiable tous les 2j
-- [ ] Avertissement 7j avant expiration
-- [ ] 10 char min, une maj et un chiffre, pas + de 3 char identiques consecutifs
-- [ ] Ne comporte pas le nom du user
-- [ ] 7 char pas dans l'ancien mdp (ne s'applique pas a root)
+- [x] Expire tous les 30j
+- [x] Modifiable tous les 2j
+- [x] Avertissement 7j avant expiration
+- [x] 10 char min, une maj et un chiffre, pas + de 3 char identiques consecutifs
+- [x] Ne comporte pas le nom du user
+- [x] 7 char pas dans l'ancien mdp (ne s'applique pas a root)
  
 ### Sudo pratique stricte
 
@@ -30,7 +30,7 @@
 
 ### Apres la mise en place des fichiers config
 
-- [ ] Changer les mdp de tous les comptes (root inclus)
+- [x] Changer les mdp de tous les comptes (root inclus)
 
 ### monitoring.sh
 
@@ -38,18 +38,18 @@ Dès le lancement de votre serveur, le script écrira des informations toutes le
 
 Le script doit afficher les infos suivantes :
 
-- [ ] OS archi et version kernel
-- [ ] Nombre processeurs physiques
-- [ ] Nombre processeurs virtuels
-- [ ] Memoire vive dispo et taux utilisation (en %)
-- [ ] Memoire dispo et taux utilisation (en %)
-- [ ] Taux utilisation actuel processeurs (en %)
-- [ ] Date et heure dernier redemarrage
-- [ ] Etat LVM
-- [ ] Nombre connexion actives
-- [ ] Nombre utilisateurs
-- [ ] Adresse IPv4 et adresse MAC
-- [ ] Nombre commandes executees avec sudo
+- [x] OS archi et version kernel
+- [x] Nombre processeurs physiques
+- [x] Nombre processeurs virtuels
+- [x] Memoire vive dispo et taux utilisation (en %)
+- [x] Memoire dispo et taux utilisation (en %)
+- [x] Taux utilisation actuel processeurs (en %)
+- [x] Date et heure dernier redemarrage
+- [x] Etat LVM
+- [x] Nombre connexion actives
+- [x] Nombre utilisateurs
+- [x] Adresse IPv4 et adresse MAC
+- [x] Nombre commandes executees avec sudo
 
 Durant la soutenance, vous serez amené(e) à expliquer le fonctionnement de ce script et à interrompre son exécution sans le modifier. Regardez du côté de cron.
 
